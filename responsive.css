@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-color: brown;
+}
+.main{
+    display: flex;
+    height: 70vh;
+    margin: auto;
+    padding: 50px;
+    align-items: center;
+}
+.main  h1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main .content-1{
+    margin: auto;
+    padding: 9px;
+    width: 30%;
+    
+}
+.main .content-1 p{
+    font-size: 15px;
+    word-spacing: 10px;
+    line-height: 2.0;
+    padding: 40;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main .content-2{
+    padding-left: 0px;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main .content-2 div{
+    margin: 15px;
+}
+.main .content-2 .up-div{
+    background-color:rgb(116, 18, 116);
+    padding:20px;
+    color:white;
+    border-radius: 9px;
+    box-shadow: hotpink;
+    width: 100%;
+}
+.main .content-2 .up-div p{
+    color:white;
+    text-align: center;
+}
+main .content-2 .form-contents {
+    background-color:rgb(255, 255, 255);
+    padding:20px ;
+    border-radius: 9px;
+    box-shadow: hotpink;
+    width: 100%;
+}
+
+main .content-2 .form-contents input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    align-content: center;
+    size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .content-2 .form-contents .button-style{
+    width: 100%;
+    background-color: rgb(2, 201, 61);
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    align-content: center;
+    size: 30px;
+    font-family: 'Gill Sans', sans-serif;
+}
+main .content-2 .form-contents button:hover{
+    background-color: rgba(87, 224, 128, 0.9);    
+}
+main .content-2 .form-contents .red{
+    color: red;
+    font-style: normal;
+    text-align: center;
+}
